@@ -92,7 +92,7 @@ industry_affi_count = Counter({k: v for k, v in dict(affi_count).items() if not 
 
 ```python
 # Show N most common keywords and their frequencies
-num_keyowrd = 50
+num_keyowrd = 200
 keywords_hist_vis = affi_count.most_common(num_keyowrd)
 
 plt.rcdefaults()
@@ -117,7 +117,7 @@ plt.show()
 <img src="neurips2021_stats_top50/neurips_stats_top50.png" width="100%" height="100%">
 
 ```python
-num_keyowrd = 50
+num_keyowrd = 200
 keywords_hist_vis = academic_affi_count.most_common(num_keyowrd)
 
 plt.rcdefaults()
@@ -142,7 +142,7 @@ plt.show()
 <img src="neurips2021_stats_top50/neurips_stats_top50_academic.png" width="100%" height="100%">
 
 ```python
-num_keyowrd = 50
+num_keyowrd = 200
 keywords_hist_vis = industry_affi_count.most_common(num_keyowrd)
 
 plt.rcdefaults()
